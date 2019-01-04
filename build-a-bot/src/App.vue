@@ -12,17 +12,19 @@
     </header>
     <main>
       <HomePage/>
+      <RobotBuilder/>
     </main>
   </div>
 </template>
 
 <script>
 import HomePage from "./components/HomePage.vue";
-
+import RobotBuilder from "./components/RobotBuilder.vue";
 export default {
   name: "app",
   components: {
-    HomePage
+    HomePage,
+    RobotBuilder
   }
 };
 </script>
