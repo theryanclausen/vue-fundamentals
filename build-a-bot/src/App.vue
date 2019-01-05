@@ -18,14 +18,15 @@
 </template>
 
 <script>
-import HomePage from "./components/HomePage.vue";
-import RobotBuilder from "./components/RobotBuilder.vue";
+import HomePage from './home/HomePage.vue';
+import RobotBuilder from './build/RobotBuilder.vue';
+
 export default {
-  name: "app",
+  name: 'app',
   components: {
     HomePage,
-    RobotBuilder
-  }
+    RobotBuilder,
+  },
 };
 </script>
 
